@@ -1,0 +1,15 @@
+/* assets/css/rtl.css */
+
+/* Apply direction and text alignment */
+body.rtl {
+    direction: rtl;
+    text-align: right;
+}
+
+/* Optionally adjust headers and paragraphs for RTL */
+body.rtl h1,
+body.rtl h2,
+body.rtl h3,
+body.rtl p {
+    text-align: right;
+}

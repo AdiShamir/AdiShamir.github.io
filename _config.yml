@@ -1,8 +1,19 @@
-title: Just the Docs Template
+title: Adisha
 description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+name: Adisha
+email: 6adish2@gmail.com
+
+url: https://AdiShamir.github.io
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+
+defaults:
+  - scope:
+      path: "docs" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      layout: "default"

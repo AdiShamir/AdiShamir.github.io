@@ -56,3 +56,14 @@ ___
 הסדר של ההפרעות הוא כמו הסדר של מאניה ודפרסיה
 הראשונה הוא בעיקר מאניה
 השני הוא בעיקר דיפרסיה
+
+
+
+<script src="https://utteranc.es/client.js"
+        repo="AdiShamir/AdiShamir.github.io"
+        issue-term="pathname"
+        label="comment"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
+</script>

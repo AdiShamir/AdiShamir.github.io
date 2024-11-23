@@ -7,8 +7,8 @@ email: 6adish2@gmail.com
 
 url: https://AdiShamir.github.io
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+# aux_links:
+#   Template Repository: https://github.com/just-the-docs/just-the-docs-template
 
 
 defaults:

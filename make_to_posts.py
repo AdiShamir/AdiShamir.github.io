@@ -6,6 +6,17 @@ folder_path = "docs"  # Update this with your folder path
 
 # Function to add front matter to a file
 
+COMMENT = """\n\n\n
+<script src="https://utteranc.es/client.js"
+        repo="AdiShamir/AdiShamir.github.io"
+        issue-term="pathname"
+        label="comment"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
+</script>
+"""
+
 
 def add_front_matter(file_path, category, parent=None):
     # Skip if the file is 'index.md', since it should not have a category for the top-level
@@ -36,9 +47,11 @@ def add_front_matter(file_path, category, parent=None):
     # Add front matter at the beginning of the file
     new_content = front_matter + content
 
+    new_content_with_comment = new_content + COMMENT
+
     # Write the updated content back to the file
     with open(file_path, "w", encoding="utf-8") as file:
-        file.write(new_content)
+        file.write(new_content_with_comment)
     print(f"Added front matter to: {file_path}")
 
 # Function to add an empty index.md file in subfolders if it does not exist
